@@ -4,12 +4,7 @@
 
 const delay = ms => {
   // Твой код
-    return Promise.resolve(
-        setTimeout(() => {
-        
-        }, ms),
-        
-    )
+    return Promise.resolve(ms)
 };
 
 const logger = time => console.log(`Resolved after ${time}ms`);
